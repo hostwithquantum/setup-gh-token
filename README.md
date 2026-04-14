@@ -1,6 +1,6 @@
-# setup-github-token
+# setup-gh-token
 
-[![workflows](https://github.com/hostwithquantum/setup-github-token/actions/workflows/check.yml/badge.svg)](https://github.com/hostwithquantum/setup-github-token/actions/workflows/check.yml)
+[![workflows](https://github.com/hostwithquantum/setup-gh-token/actions/workflows/check.yml/badge.svg)](https://github.com/hostwithquantum/setup-gh-token/actions/workflows/check.yml)
 
 A GitHub Action that creates a GitHub App installation token and resolves the bot's committer identity.
 
@@ -11,7 +11,7 @@ Wraps [`actions/create-github-app-token`](https://github.com/actions/create-gith
 ```yaml
 steps:
   - id: token
-    uses: hostwithquantum/setup-github-token@v1.0.0
+    uses: hostwithquantum/setup-gh-token@v1.0.1
     with:
       client-id: ${{ secrets.APP_CLIENT_ID }}
       private-key: ${{ secrets.APP_PRIVATE_KEY }}

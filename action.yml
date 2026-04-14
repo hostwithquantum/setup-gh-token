@@ -1,4 +1,4 @@
-name: Setup GitHub Token
+name: setup-gh-token
 description: Create a GitHub App token and resolve bot committer identity
 
 inputs:
